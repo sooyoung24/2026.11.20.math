@@ -1,19 +1,12 @@
-# :earth_americas: GDP dashboard template
+# 쌓기나무 탐정단: 같은 사진, 다른 건물
 
-A simple Streamlit app showing the GDP of different countries in the world.
+초등학교 6학년 수학 「쌓기나무」 단원에서 방향별 그림과 3D 모형의 관계를 탐구하는 Streamlit 앱입니다.
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://gdp-dashboard-template.streamlit.app/)
+## 실행 방법
 
-### How to run it on your own machine
+```bash
+pip install -r requirements.txt
+streamlit run streamlit_app.py
+```
 
-1. Install the requirements
-
-   ```
-   $ pip install -r requirements.txt
-   ```
-
-2. Run the app
-
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+학생은 그림에 맞는 모형을 모두 찾아보거나, 쌓기나무를 직접 만들고 방향별 그림을 확인할 수 있습니다. 탐정 게임에서는 앞·오른쪽 그림은 같지만 블록 수가 다른 두 건물을 복원하고 위에서 본 모양도 비교합니다.
